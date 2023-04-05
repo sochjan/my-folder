@@ -1,0 +1,31 @@
+  498  mkdir cli
+  499  cd cli
+  500  touch animal.txt
+  501  mv animal.txt animals.txt
+  502  touch text1.txt text2.txt text3.txt
+  503  mkdir test
+  504  mv text1.txt text2.txt text3.txt -t test
+  505  echo fox > animals.txt
+  506  cat animals.txt
+  507  echo dog > animals.txt
+  508  cat animals.txt
+  509  echo cat >> animals.txt
+  510  cat animals.txt
+  511  wc animals.txt
+  513  man wc
+  531  sort animals.txt
+  532  uniq animals.txt
+  533  sort animals.txt
+  534  echo cat >> animals.txt
+  535  echo cat >> animals.txt
+  536  echo dog >> animals.txt
+  537  echo cat >> animals.txt
+  538  echo dog >> animals.txt
+  539  echo hippo >> animals.txt
+  540  echo dog >> animals.txt
+  541  echo hippo >> animals.txt
+  542  cat animals.txt
+  543  sort animals.txt
+  544  uniq animals.txt
+  545  cat /etc/shells 
+  546  chsh -s /bin/bash
